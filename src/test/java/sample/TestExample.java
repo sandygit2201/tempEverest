@@ -1,0 +1,94 @@
+package sample;
+
+import dataObjects.AuthorisationResDTO;
+import dataObjects.shifts.ShiftsReqDTO;
+import dataObjects.UserDTO;
+import dataObjects.shifts.ShiftsResDTO;
+import gherkin.deps.com.google.gson.JsonObject;
+import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
+import io.restassured.specification.RequestSpecification;
+import org.junit.Test;
+import utils.ConfigReader;
+import utils.UserDataReder;
+
+import java.util.List;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+public class TestExample {
+
+
+     String strBaseURI = new ConfigReader().url();
+
+
+    public AuthorisationResDTO getAuthResponse(UserDTO user) {
+
+        RestAssured.baseURI = strBaseURI;
+        JsonObject userData = new JsonObject();
+        userData.addProperty("emailAddress", user.getEmailAddress());
+        userData.addProperty("password", user.getPassword());
+        RequestSpecification httpRequest = RestAssured.given();
+        Response response = (Response) httpRequest.header("Content-Type", "application/json")
+                .body(userData.toString())
+                .post("/Authorisation/token");
+
+        JsonPath jsonPathEvaluator = response.jsonPath();
+
+        assertThat(response.statusCode()).isEqualTo(201);
+
+        AuthorisationResDTO authorisationResDTO = new AuthorisationResDTO();
+        authorisationResDTO.setToken("Bearer " +jsonPathEvaluator.get("token"));
+
+        return  authorisationResDTO;
+    }
+
+      public ShiftsResDTO getShifts(ShiftsReqDTO shiftsGetDTO){
+
+//        "https://appapi.dev.ynvr.se/shifts?startTime=2018-10-01T00:00:00&endTime=2018-11-04T23:59:59";
+
+         RestAssured.baseURI = strBaseURI;
+
+          RequestSpecification httpRequest = RestAssured.given();
+          Response response = (Response) httpRequest.header("Authorization", shiftsGetDTO.getToken())
+                  .param("startTime",shiftsGetDTO.getStartTime())
+                  .param("endTime",shiftsGetDTO.getEndTime())
+                  .get("/shifts");
+
+          assertThat(response.statusCode()).isEqualTo(200);
+
+          ShiftsResDTO shiftsResDTO = new ShiftsResDTO();
+
+          System.out.println(response.toString());
+
+          List<ShiftsResDTO> userShifts = response.then().extract().jsonPath().getList("",ShiftsResDTO.class);
+
+
+
+          return shiftsResDTO;
+      }
+
+      @Test
+      public void getShiftsDetails(){
+
+        String userName = "sally";
+
+        ShiftsReqDTO shiftsReqDTO = new ShiftsReqDTO();
+
+        UserDTO userDTO = new UserDataReder().getUser(userName);
+
+        AuthorisationResDTO authorisationResDTO = getAuthResponse(userDTO);
+
+        shiftsReqDTO.setToken(authorisationResDTO.getToken());
+
+        shiftsReqDTO.setStartTime("2018-10-01T00:00:00");
+        shiftsReqDTO.setEndTime("2018-11-04T23:59:59");
+        shiftsReqDTO.setUserName(userName);
+
+        getShifts(shiftsReqDTO);
+
+
+      }
+
+}
