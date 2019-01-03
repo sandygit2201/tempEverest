@@ -1,4 +1,4 @@
-package dataObjects;
+package dataObjects.auth;
 
 import java.util.Map;
 

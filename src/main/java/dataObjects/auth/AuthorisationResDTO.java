@@ -1,14 +1,24 @@
-package dataObjects;
+package dataObjects.auth;
+
+import java.util.List;
 
 public class AuthorisationResDTO {
 
 
     private String token;
     private String idToken;
-    private String firstName;
-    private String lastName;
     private String memberId;
     private String networkId;
+
+    public List<ChallengeDTO> getChallenges() {
+        return challenges;
+    }
+
+    public void setChallenges(List<ChallengeDTO> challenges) {
+        this.challenges = challenges;
+    }
+
+    private List<ChallengeDTO> challenges;
 
     public String getToken() {
         return token;
@@ -24,22 +34,6 @@ public class AuthorisationResDTO {
 
     public void setIdToken(String idToken) {
         this.idToken = idToken;
-    }
-
-    public String getFirstName() {
-        return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
     }
 
     public String getMemberId() {

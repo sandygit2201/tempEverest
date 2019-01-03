@@ -1,6 +1,6 @@
 package sample;
 
-import dataObjects.AuthorisationResDTO;
+import dataObjects.auth.AuthorisationResDTO;
 import dataObjects.shifts.ShiftsReqDTO;
 import dataObjects.UserDTO;
 import dataObjects.shifts.ShiftsResDTO;
@@ -36,12 +36,13 @@ public class TestExample {
 
         JsonPath jsonPathEvaluator = response.jsonPath();
 
-        assertThat(response.statusCode()).isEqualTo(201);
+         AuthorisationResDTO authResponse = response.then().extract().jsonPath().getObject("",AuthorisationResDTO.class);
 
-        AuthorisationResDTO authorisationResDTO = new AuthorisationResDTO();
-        authorisationResDTO.setToken("Bearer " +jsonPathEvaluator.get("token"));
+         assertThat(response.statusCode()).isEqualTo(201);
 
-        return  authorisationResDTO;
+         authResponse.setToken("Bearer "+authResponse.getToken());
+
+        return  authResponse;
     }
 
       public List<ShiftsResDTO> getShifts(ShiftsReqDTO shiftsGetDTO){
