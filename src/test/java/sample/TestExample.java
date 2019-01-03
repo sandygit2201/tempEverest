@@ -44,7 +44,7 @@ public class TestExample {
         return  authorisationResDTO;
     }
 
-      public ShiftsResDTO getShifts(ShiftsReqDTO shiftsGetDTO){
+      public List<ShiftsResDTO> getShifts(ShiftsReqDTO shiftsGetDTO){
 
 //        "https://appapi.dev.ynvr.se/shifts?startTime=2018-10-01T00:00:00&endTime=2018-11-04T23:59:59";
 
@@ -64,10 +64,10 @@ public class TestExample {
 
           List<ShiftsResDTO> userShifts = response.then().extract().jsonPath().getList("",ShiftsResDTO.class);
 
-
-
-          return shiftsResDTO;
+          return userShifts;
       }
+
+
 
       @Test
       public void getShiftsDetails(){
@@ -82,12 +82,22 @@ public class TestExample {
 
         shiftsReqDTO.setToken(authorisationResDTO.getToken());
 
-        shiftsReqDTO.setStartTime("2018-10-01T00:00:00");
-        shiftsReqDTO.setEndTime("2018-11-04T23:59:59");
+        shiftsReqDTO.setStartTime("2018-01-01T00:00:00");
+        shiftsReqDTO.setEndTime("2019-11-04T23:59:59");
         shiftsReqDTO.setUserName(userName);
 
-        getShifts(shiftsReqDTO);
+        List<ShiftsResDTO> userShifts= getShifts(shiftsReqDTO);
 
+        for (ShiftsResDTO shiftDetails:userShifts) {
+
+            String Location = shiftDetails.getSubLocation().getName();
+            String shiftPositon = shiftDetails.getShiftPosition().getName();
+
+
+            System.out.println(Location + " at " + shiftPositon);
+
+
+        }
 
       }
 

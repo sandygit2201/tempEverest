@@ -2,6 +2,8 @@ package dataObjects.shifts;
 
 import dataObjects.MemberDTO;
 
+import java.util.ArrayList;
+
 public class ShiftsResDTO {
 
     private int id;
@@ -15,8 +17,40 @@ public class ShiftsResDTO {
     private float totalPay;
     private int overtimeHours;
     private MemberDTO member;
-    private String subShifts;
-    private String breaks;
+    private int status;
+
+    public ArrayList<SubShiftDTO> getSubShifts() {
+        return subShifts;
+    }
+
+    public void setSubShifts(ArrayList<SubShiftDTO> subShifts) {
+        this.subShifts = subShifts;
+    }
+
+    private ArrayList<SubShiftDTO> subShifts;
+    private ArrayList<BreakDTO> breaks;
+
+    public ArrayList<BreakDTO> getBreaks() {
+        return breaks;
+    }
+
+    public void setBreaks(ArrayList<BreakDTO> breaks) {
+        this.breaks = breaks;
+    }
+
+    public int getStatus() {
+        return status;
+    }
+    public void setStatus(int status) {
+        this.status = status;
+    }
+    public SubLocationDTO getSubLocation() {
+        return subLocation;
+    }
+
+    public void setSubLocation(SubLocationDTO subLocation) {
+        this.subLocation = subLocation;
+    }
 
     public String getTotalHours() {
         return totalHours;
@@ -50,21 +84,7 @@ public class ShiftsResDTO {
         this.member = memberDTO;
     }
 
-    public String getSubShifts() {
-        return subShifts;
-    }
 
-    public void setSubShifts(String subShifts) {
-        this.subShifts = subShifts;
-    }
-
-    public String getBreaks() {
-        return breaks;
-    }
-
-    public void setBreaks(String breaks) {
-        this.breaks = breaks;
-    }
 
     public ClassificationDTO getClassification() {
         return classification;
@@ -114,11 +134,5 @@ public class ShiftsResDTO {
         this.endTime = endTime;
     }
 
-    public SubLocationDTO getSubLocation() {
-        return subLocation;
-    }
 
-    public void setSubLocation(SubLocationDTO subLocationDTO) {
-        this.subLocation = subLocationDTO;
-    }
 }

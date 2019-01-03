@@ -3,7 +3,16 @@ package dataObjects.shifts;
 public class ShiftPositionDTO {
 
     private int id;
-    private int name;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    private String name;
 
     public int getId() {
         return id;
@@ -13,11 +22,5 @@ public class ShiftPositionDTO {
         this.id = id;
     }
 
-    public int getName() {
-        return name;
-    }
 
-    public void setName(int name) {
-        this.name = name;
-    }
 }
