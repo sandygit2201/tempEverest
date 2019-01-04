@@ -83,7 +83,7 @@ public class TestExample {
 
         shiftsReqDTO.setToken(authorisationResDTO.getToken());
 
-        shiftsReqDTO.setStartTime("2018-01-01T00:00:00");
+        shiftsReqDTO.setStartTime("2019-01-01T00:00:00");
         shiftsReqDTO.setEndTime("2019-11-04T23:59:59");
         shiftsReqDTO.setUserName(userName);
 

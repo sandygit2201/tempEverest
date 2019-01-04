@@ -1,10 +1,15 @@
 package appiumTests;
 
+import io.appium.java_client.MobileDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import io.appium.java_client.touch.WaitOptions;
+import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -12,6 +17,7 @@ import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.time.Duration;
 import java.util.List;
 
 public class YOUniverseAndroid {
@@ -55,7 +61,7 @@ public class YOUniverseAndroid {
         driver.launchApp();
 
 
-
+        sleep(5);
 
         driver.findElement(By.xpath("//android.widget.EditText[@index='1']")).sendKeys("sally.mills@ynvr.se");
 
@@ -87,6 +93,13 @@ public class YOUniverseAndroid {
 
            sleep(2);
 
+          scrollAndPrintElements();
+          scrollAndPrintElements();
+          scrollAndPrintElements();
+
+    }
+
+    public void scrollAndPrintElements(){
         List<MobileElement> textViews = driver.findElements(By.xpath("//android.widget.TextView"));
 
         for (MobileElement ele: textViews) {
@@ -94,7 +107,14 @@ public class YOUniverseAndroid {
             System.out.println(ele.getText());
         }
 
+        TouchAction touchAction = new TouchAction((MobileDriver)driver);
 
+
+        touchAction.press(PointOption.point(350,1200))
+                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
+                .moveTo(PointOption.point(350,200))
+                .release().perform();
+        sleep(5);
 
     }
 
