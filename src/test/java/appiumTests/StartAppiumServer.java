@@ -1,20 +1,21 @@
 package appiumTests;
 
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.remote.AutomationName;
 import io.appium.java_client.remote.IOSMobileCapabilityType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
-import org.junit.Test;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
-import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
 
-public class FirstTest {
+public class StartAppiumServer {
 
     AppiumDriverLocalService appiumService ;
 
@@ -27,37 +28,27 @@ public class FirstTest {
     }
 
     @Test
-    public void LaunchApp(){
+    public void Test123(){
 
-        String appPath= "youniversemobileapp.app";
-        File applicaitonPath = new File(appPath);
+        System.out.println("Appium service Started");
 
         DesiredCapabilities dcaps = DesiredCapabilities.iphone();
-        dcaps.acceptInsecureCerts();
-        dcaps.setJavascriptEnabled(true);
         dcaps.setPlatform(Platform.IOS);
-
-        dcaps.setCapability( MobileCapabilityType.DEVICE_NAME, "iPhone Simulator");
-        dcaps.setVersion("12.1");
-        dcaps.setCapability(   MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
+        dcaps.setAcceptInsecureCerts(true);
+        dcaps.setJavascriptEnabled(true);
+        dcaps.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone Simulator");
+        dcaps.setCapability(   MobileCapabilityType.AUTOMATION_NAME, AutomationName.IOS_XCUI_TEST);
         dcaps.setCapability(IOSMobileCapabilityType.APP_NAME , "youniversemobileapp");
-//        dcaps.setCapability(MobileCapabilityType.APP,applicaitonPath);
         dcaps.setCapability("appPackage","org.reactjs.native.example.youniversemobileapp");
-
-
-
-//        org.reactjs.native.example.youniversemobileapp
 
         URL url=null;
         try {
-            url = new URL("http://localhost:4723");
+            url = new URL("http://localhost:4723/wd/hub");
         } catch (MalformedURLException e) {
             e.printStackTrace();
         }
-
         IOSDriver driver = new IOSDriver(url,dcaps);
         driver.launchApp();
-
     }
 
     @AfterTest

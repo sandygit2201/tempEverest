@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/Authorisation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/BaseApiReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/api/Shifts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Shifts_Steps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/appiumTests/StartAppiumServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Shifts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/Authorisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Authorisation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/FirstTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/FirstTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/test.feature" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/TestExample.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/StartAppiumServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+            <state relative-caret-position="138">
+              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -37,64 +35,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/Authorisation.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="690">
+              <caret line="58" column="27" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/features/Shifts.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Shifts_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/Shifts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/api/BaseApiReq.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -169,6 +116,8 @@
         <option value="$PROJECT_DIR$/src/test/resources/features/Shifts.feature" />
         <option value="$PROJECT_DIR$/src/main/java/api/Shifts.java" />
         <option value="$PROJECT_DIR$/src/test/java/Shifts_Steps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appiumTests/StartAppiumServer.java" />
       </list>
     </option>
   </component>
@@ -190,6 +139,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,6 +217,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="appiumTests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -296,12 +254,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546532033476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546580242207" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
@@ -324,90 +281,98 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestExample.getShiftsDetails">
-    <configuration name="TestExample" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.StartAppiumServer">
+    <configuration name="FirstTest.LaunchApp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="appiumTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.TestExample" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestExample.getShifts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mobileAutomaiton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sample.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.TestExample" />
-      <option name="METHOD_NAME" value="getShifts" />
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.FirstTest" />
+      <option name="METHOD_NAME" value="LaunchApp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestExample.getShiftsDetails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StartAppiumServer (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sample.*" />
+          <option name="PATTERN" value="appiumTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="sample" />
-      <option name="MAIN_CLASS_NAME" value="sample.TestExample" />
-      <option name="METHOD_NAME" value="getShiftsDetails" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.StartAppiumServer" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDataReder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StartAppiumServer" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="appiumTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.UserDataReder" />
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.StartAppiumServer" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDataReder.readTempData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StartAppiumServer.Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="utils.*" />
+          <option name="PATTERN" value="appiumTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="utils" />
-      <option name="MAIN_CLASS_NAME" value="utils.UserDataReder" />
-      <option name="METHOD_NAME" value="readTempData" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.StartAppiumServer" />
+      <option name="METHOD_NAME" value="Test" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StartAppiumServer.Test123" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAutomaiton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appiumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.StartAppiumServer" />
+      <option name="METHOD_NAME" value="Test123" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestExample.getShiftsDetails" />
-        <item itemvalue="JUnit.TestExample" />
-        <item itemvalue="JUnit.UserDataReder" />
-        <item itemvalue="JUnit.UserDataReder.readTempData" />
-        <item itemvalue="JUnit.TestExample.getShifts" />
+        <item itemvalue="TestNG.StartAppiumServer" />
+        <item itemvalue="TestNG.StartAppiumServer.Test123" />
+        <item itemvalue="TestNG.StartAppiumServer (1)" />
+        <item itemvalue="TestNG.StartAppiumServer.Test" />
+        <item itemvalue="JUnit.FirstTest.LaunchApp" />
       </list>
     </recent_temporary>
   </component>
@@ -425,55 +390,56 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestExample - 2019.01.03 at 10h 28m 28s.xml">
-      <configuration name="TestExample" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer - 2019.01.04 at 10h 38m 56s.xml">
+      <configuration name="StartAppiumServer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample - 2019.01.03 at 10h 30m 00s.xml">
-      <configuration name="TestExample" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer - 2019.01.04 at 10h 47m 34s.xml">
+      <configuration name="StartAppiumServer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample - 2019.01.03 at 10h 32m 26s.xml">
-      <configuration name="TestExample" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer_Test - 2019.01.04 at 10h 48m 20s.xml">
+      <configuration name="StartAppiumServer.Test" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample_getShiftsDetails - 2019.01.03 at 10h 36m 25s.xml">
-      <configuration name="TestExample.getShiftsDetails" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer - 2019.01.04 at 10h 48m 48s.xml">
+      <configuration name="StartAppiumServer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample_getShiftsDetails - 2019.01.03 at 10h 38m 05s.xml">
-      <configuration name="TestExample.getShiftsDetails" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer_Test123 - 2019.01.04 at 10h 49m 33s.xml">
+      <configuration name="StartAppiumServer.Test123" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample_getShiftsDetails - 2019.01.03 at 10h 42m 08s.xml">
-      <configuration name="TestExample.getShiftsDetails" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer_Test123 - 2019.01.04 at 10h 49m 59s.xml">
+      <configuration name="StartAppiumServer.Test123" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample - 2019.01.03 at 10h 52m 50s.xml">
-      <configuration name="TestExample" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer_(1) - 2019.01.04 at 10h 50m 26s.xml">
+      <configuration name="StartAppiumServer (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample - 2019.01.03 at 10h 53m 51s.xml">
-      <configuration name="TestExample" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer - 2019.01.04 at 10h 58m 01s.xml">
+      <configuration name="StartAppiumServer" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample_getShiftsDetails - 2019.01.03 at 11h 12m 49s.xml">
-      <configuration name="TestExample.getShiftsDetails" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer_Test123 - 2019.01.04 at 10h 59m 29s.xml">
+      <configuration name="StartAppiumServer.Test123" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestExample_getShiftsDetails - 2019.01.03 at 16h 20m 41s.xml">
-      <configuration name="TestExample.getShiftsDetails" configurationId="JUnit" />
+    <history-entry file="StartAppiumServer - 2019.01.04 at 11h 00m 22s.xml">
+      <configuration name="StartAppiumServer" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26037195" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.26752505" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="0" visible="true" weight="0.43156424" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.43156424" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="2" visible="true" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.4441341" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3991655" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.4441341" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -523,6 +489,12 @@
           <line>79</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -810,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/ConfigReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -840,24 +802,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/BaseApiReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/Authorisation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="450">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -867,13 +815,13 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/features/Shifts.feature">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/api/Shifts.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="375">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -881,10 +829,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/BaseApiReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Shifts_Steps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        <state relative-caret-position="318">
+          <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -893,8 +855,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sample/TestExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="72" column="11" lean-forward="true" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+        <state relative-caret-position="340">
+          <caret line="72" column="11" selection-start-line="72" selection-start-column="11" selection-end-line="72" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/StartAppiumServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="58" column="27" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
