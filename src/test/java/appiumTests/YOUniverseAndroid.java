@@ -1,104 +1,52 @@
 package appiumTests;
 
-import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.TouchAction;
+import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.remote.MobileCapabilityType;
-import io.appium.java_client.service.local.AppiumDriverLocalService;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 import mobileUtils.MobileBasePage;
-import org.openqa.selenium.By;
-import org.openqa.selenium.logging.LogEntries;
-import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-import utils.CommonUtils;
-import utils.DesiredCaps;
+import pages.HomeScreen;
+import pages.LoginScreen;
+import pages.ShiftsScreen;
 import utils.DriverInit;
+import utils.UserDataReder;
 
-import java.io.File;
-import java.io.IOException;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.sql.Time;
-import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 
 public class YOUniverseAndroid extends MobileBasePage {
 
 
     private AndroidDriver driver;
-    private List<String> listShifts= new ArrayList<String>();
 
 
     @Test
-    public void Test123(){
+    public void Test123() {
 
         driver = new DriverInit().getAndroidDriverForEmulator();
-
         driver.launchApp();
-        driver.findElement(By.xpath("//android.widget.EditText[@index='1']")).sendKeys("sally.mills@ynvr.se");
-        driver.hideKeyboard();
-        driver.findElement(By.xpath("//android.widget.EditText[@index='3']")).sendKeys("MargHerita");
 
-        driver.hideKeyboard();
+        LoginScreen loginPage = new LoginScreen(driver);
+        PageFactory.initElements(driver, loginPage);
 
-        try {
-            driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
-            driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
+        UserDTO user = new UserDataReder().getUser("sally");
+        loginPage.loginToAPP(user);
 
-        }
-        catch (Exception e){
-            System.out.println("");
-        }
+        HomeScreen homePage = new HomeScreen(driver);
+        PageFactory.initElements(driver, homePage);
+        homePage.navigateTosShiftsView();
 
-           driver.findElement(By.xpath("//android.view.ViewGroup[@index='2']")).click();
+        ShiftsScreen shiftsScreen = new ShiftsScreen(driver);
+        PageFactory.initElements(driver, shiftsScreen);
 
+        List<String> listShiftsInfo = shiftsScreen.getShiftsInfo();
 
-          scrollAndPrintElements();
-          scrollAndPrintElements();
-          scrollAndPrintElements();
+        for (String shift : listShiftsInfo)
+            System.out.println(shift);
 
-
-        System.out.println("Shifts Details");
-        listShifts.forEach(System.out::println);
-
-
-    }
-
-    public void scrollAndPrintElements(){
-        List<MobileElement> textViews = driver.findElements(By.xpath("//android.widget.ScrollView//android.widget.TextView"));
-
-        for (MobileElement ele: textViews) {
-
-            listShifts.add(ele.getText());
-        }
-
-        TouchAction touchAction = new TouchAction((MobileDriver)driver);
-
-
-        touchAction.press(PointOption.point(350,1200))
-                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
-                .moveTo(PointOption.point(350,200))
-                .release().perform();
+        driver.closeApp();
 
     }
 
 
-    @AfterTest
-    public void StopAppiumServer(){
-
-        try{
-            driver.closeApp();
-        }catch (Exception e){
-
-        }
-
-
-    }
 }

@@ -33,7 +33,6 @@ public class MobileBasePage {
     @AfterTest
     public void stopAppiumServerAndEmulator(){
 
-
         appiumService.stop();
 
     }
