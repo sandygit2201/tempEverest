@@ -5,9 +5,11 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class DesiredCaps {
 
+    private  DesiredCapabilities dcaps;
+
     public DesiredCapabilities getDCapsForEmulator(){
 
-        DesiredCapabilities dcaps = DesiredCapabilities.android();
+        dcaps = DesiredCapabilities.android();
         dcaps.setCapability("browserName","");
         dcaps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
         dcaps.setCapability("platformName", "Android");

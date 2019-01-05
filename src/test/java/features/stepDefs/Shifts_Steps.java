@@ -11,12 +11,7 @@ import dataObjects.shifts.ShiftsResDTO;
 import java.util.List;
 
 public class Shifts_Steps {
-    @Given("get shifts for user {string}")
-    public void getShiftsForUser(String user) {
 
-
-
-    }
 
     @Given("get shifts for user {string} from {string} to {string}")
     public void getShiftsForUserFromTo(String user, String startTime, String endTime) {

@@ -1,11 +1,9 @@
 package pages;
 
 import dataObjects.UserDTO;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import sun.rmi.runtime.Log;
 import utils.CommonUtils;
 
 public class LoginScreen {

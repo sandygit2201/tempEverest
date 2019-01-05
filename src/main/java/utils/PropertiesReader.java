@@ -6,10 +6,13 @@ import java.util.Properties;
 
 public class PropertiesReader {
 
-    public Properties readPropertyFile(String filePath){
+    private Properties properties;
+    private InputStream inputStream;
 
-        Properties properties = new Properties();
-        InputStream inputStream = getClass().getClassLoader().getResourceAsStream(filePath);
+    public Properties readPropertyFile(String filePath) {
+
+        properties = new Properties();
+        inputStream = getClass().getClassLoader().getResourceAsStream(filePath);
         try {
             properties.load(inputStream);
         } catch (IOException e) {
