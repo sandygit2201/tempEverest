@@ -15,6 +15,9 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import utils.CommonUtils;
+import utils.DesiredCaps;
+import utils.DriverInit;
 
 import java.io.File;
 import java.io.IOException;
@@ -36,33 +39,16 @@ public class YOUniverseAndroid extends MobileBasePage {
     @Test
     public void Test123(){
 
-        File file = new File("src/test/resources/apkFiles/YOUniverse.apk");
-        String apkFilePath = file.getAbsolutePath();
-        System.out.println(apkFilePath);
-        DesiredCapabilities dcaps = DesiredCapabilities.android();
-        dcaps.setCapability("browserName","");
-        dcaps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
-        dcaps.setCapability("platformName", "Android");
-        dcaps.setCapability("platformVersion", "9");
-        dcaps.setCapability("appPackage","au.com.youniverse");
-        dcaps.setCapability("app",apkFilePath);
+        driver = new DriverInit().getAndroidDriverForEmulator();
 
-
-        driver = new AndroidDriver(MobileBasePage.url,dcaps);
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
         driver.launchApp();
-
-
-
         driver.findElement(By.xpath("//android.widget.EditText[@index='1']")).sendKeys("sally.mills@ynvr.se");
-
         driver.hideKeyboard();
         driver.findElement(By.xpath("//android.widget.EditText[@index='3']")).sendKeys("MargHerita");
 
         driver.hideKeyboard();
 
         try {
-            driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
             driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
             driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
 

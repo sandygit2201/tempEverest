@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DesiredCapbilities.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/Authorisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Authorisation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/BaseApiReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/BaseApiReq.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/api/Shifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Shifts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/MemberDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/MemberDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/UserDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationResDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationResDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/ChallengeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/ChallengeDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/BreakDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/BreakDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ClassificationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ClassificationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftPositionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftPositionDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsReqDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsResDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsResDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubLocationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubLocationDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubShiftDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubShiftDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mobileUtils/MobileBasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobileUtils/MobileBasePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/UserDataReder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/UserDataReder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/WorkginScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/WorkginScript.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/stepDefs/Shifts_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/stepDefs/Shifts_Steps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sample/APISample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sample/APISample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+            <state relative-caret-position="215">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1071#1079#0" expanded="true" />
@@ -61,10 +36,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/CommonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+            <state relative-caret-position="210">
+              <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -125,9 +124,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/java/features/stepDefs/test.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/features/stepDefs/TestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/stepDefs/TestSteps.java" />
         <option value="$PROJECT_DIR$/src/test/resources/config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java" />
@@ -175,6 +171,9 @@
         <option value="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" />
         <option value="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DesiredCapbilities.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" />
         <option value="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" />
       </list>
     </option>
@@ -290,7 +289,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546700046979" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546700684029" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -322,7 +321,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.YOUniverseAndroid (4)">
+  <component name="RunManager" selected="TestNG.YOUniverseAndroid.Test123">
     <configuration name="AppiumAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
@@ -423,11 +422,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.YOUniverseAndroid.Test123" />
         <item itemvalue="TestNG.YOUniverseAndroid (4)" />
         <item itemvalue="TestNG.YOUniverseAndroid (2)" />
         <item itemvalue="TestNG.YOUniverseAndroid" />
         <item itemvalue="TestNG.YOUniverseAndroid (1)" />
-        <item itemvalue="TestNG.YOUniverseAndroid.Test123" />
       </list>
     </recent_temporary>
   </component>
@@ -445,9 +444,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YOUniverseAndroid_(1) - 2019.01.05 at 17h 18m 22s.xml">
-      <configuration name="YOUniverseAndroid (1)" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="YOUniverseAndroid - 2019.01.05 at 17h 21m 06s.xml">
       <configuration name="YOUniverseAndroid" configurationId="TestNG" />
     </history-entry>
@@ -475,6 +471,9 @@
     <history-entry file="YOUniverseAndroid_(4) - 2019.01.05 at 20h 16m 00s.xml">
       <configuration name="YOUniverseAndroid (4)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 20h 34m 25s.xml">
+      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -485,7 +484,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.44832402" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -997,15 +996,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+        <state relative-caret-position="210">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
+        <state relative-caret-position="215">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1071#1079#0" expanded="true" />
