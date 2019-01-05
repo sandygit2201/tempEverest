@@ -24,16 +24,16 @@ public class LoginScreen {
     @FindBy(xpath = "//android.view.ViewGroup[@index='4']")
     private WebElement btnSignIn;
 
-    public void loginToAPP(UserDTO userDTO){
+    public void loginToAPP(UserDTO userDTO) {
 
         txtLogin.sendKeys(userDTO.getEmailAddress());
         driver.hideKeyboard();
         txtPassword.sendKeys(userDTO.getPassword());
         driver.hideKeyboard();
-        try{
+        try {
             btnSignIn.click();
             btnSignIn.click();
-        }catch (Exception e){
+        } catch (Exception e) {
             System.out.println("");
         }
 

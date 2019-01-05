@@ -4,21 +4,18 @@ import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
 import mobileUtils.MobileBasePage;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 import pages.HomeScreen;
 import pages.LoginScreen;
 import pages.ShiftsScreen;
 import utils.DriverInit;
 import utils.UserDataReder;
-
 import java.util.List;
 
 public class YOUniverseAndroid extends MobileBasePage {
 
 
     private AndroidDriver driver;
-
 
     @Test
     public void Test123() {

@@ -1,7 +1,5 @@
 package mobileUtils;
 
-
-import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -11,12 +9,12 @@ import java.net.URL;
 
 public class MobileBasePage {
 
-    private AppiumDriverLocalService appiumService ;
+    private AppiumDriverLocalService appiumService;
 
-    public static URL url=null;
+    public static URL url = null;
 
     @BeforeTest
-    public void startAppiumServerAndEmulator(){
+    public void startAppiumServerAndEmulator() {
 
         appiumService = AppiumDriverLocalService.buildDefaultService();
         appiumService.start();
@@ -29,15 +27,12 @@ public class MobileBasePage {
 
     }
 
-
     @AfterTest
-    public void stopAppiumServerAndEmulator(){
+    public void stopAppiumServerAndEmulator() {
 
         appiumService.stop();
 
     }
-
-
 
 
 }

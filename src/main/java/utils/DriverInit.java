@@ -10,10 +10,10 @@ public class DriverInit {
     private AndroidDriver driver;
     private DesiredCaps dcaps;
 
-    public AndroidDriver getAndroidDriverForEmulator(){
+    public AndroidDriver getAndroidDriverForEmulator() {
 
         dcaps = new DesiredCaps();
-        driver = new AndroidDriver(MobileBasePage.url,dcaps.getDCapsForEmulator());
+        driver = new AndroidDriver(MobileBasePage.url, dcaps.getDCapsForEmulator());
         driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
 
         return driver;

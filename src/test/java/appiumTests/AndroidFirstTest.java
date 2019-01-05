@@ -19,7 +19,7 @@ import java.net.URL;
 import java.time.Duration;
 import java.util.List;
 
-public class WorkginScript {
+public class AndroidFirstTest {
 
     private AppiumDriverLocalService appiumService ;
     private AndroidDriver driver;

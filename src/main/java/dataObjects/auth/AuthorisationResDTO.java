@@ -9,15 +9,6 @@ public class AuthorisationResDTO {
     private String idToken;
     private String memberId;
     private String networkId;
-
-    public List<ChallengeDTO> getChallenges() {
-        return challenges;
-    }
-
-    public void setChallenges(List<ChallengeDTO> challenges) {
-        this.challenges = challenges;
-    }
-
     private List<ChallengeDTO> challenges;
 
     public String getToken() {
@@ -50,5 +41,13 @@ public class AuthorisationResDTO {
 
     public void setNetworkId(String networkId) {
         this.networkId = networkId;
+    }
+
+    public List<ChallengeDTO> getChallenges() {
+        return challenges;
+    }
+
+    public void setChallenges(List<ChallengeDTO> challenges) {
+        this.challenges = challenges;
     }
 }

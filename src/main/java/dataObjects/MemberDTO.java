@@ -9,24 +9,7 @@ public class MemberDTO {
     private String lastName;
     private int networkId;
     private String isAdmin;
-
-    public ClassificationDTO getClassification() {
-        return classification;
-    }
-
-    public void setClassification(ClassificationDTO classification) {
-        this.classification = classification;
-    }
-
     private ClassificationDTO classification;
-
-    public String getIsAdmin() {
-        return isAdmin;
-    }
-
-    public void setIsAdmin(String isAdmin) {
-        this.isAdmin = isAdmin;
-    }
 
     public int getId() {
         return id;
@@ -60,6 +43,19 @@ public class MemberDTO {
         this.networkId = networkId;
     }
 
+    public String getIsAdmin() {
+        return isAdmin;
+    }
 
+    public void setIsAdmin(String isAdmin) {
+        this.isAdmin = isAdmin;
+    }
 
+    public ClassificationDTO getClassification() {
+        return classification;
+    }
+
+    public void setClassification(ClassificationDTO classification) {
+        this.classification = classification;
+    }
 }

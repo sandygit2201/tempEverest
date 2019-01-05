@@ -7,7 +7,6 @@ import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import utils.ConfigReader;
 import utils.UserDataReder;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -23,7 +22,8 @@ public class Authorisation extends BaseApiReq {
         userData.addProperty("emailAddress", user.getEmailAddress());
         userData.addProperty("password", user.getPassword());
         RequestSpecification httpRequest = RestAssured.given();
-        Response response = (Response) httpRequest.header("Content-Type", "application/json")
+        Response response = (Response) httpRequest.
+                header("Content-Type", "application/json")
                 .body(userData.toString())
                 .post("/Authorisation/token");
 

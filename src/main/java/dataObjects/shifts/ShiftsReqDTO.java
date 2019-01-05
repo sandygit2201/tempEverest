@@ -5,15 +5,6 @@ public class ShiftsReqDTO {
     private String userName;
     private String StartTime;
     private String EndTime;
-
-    public String getToken() {
-        return Token;
-    }
-
-    public void setToken(String token) {
-        Token = token;
-    }
-
     private String Token;
 
     public String getUserName() {
@@ -40,5 +31,11 @@ public class ShiftsReqDTO {
         EndTime = endTime;
     }
 
+    public String getToken() {
+        return Token;
+    }
 
+    public void setToken(String token) {
+        Token = token;
+    }
 }

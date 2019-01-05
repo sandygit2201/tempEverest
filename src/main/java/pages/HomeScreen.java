@@ -1,17 +1,13 @@
 package pages;
 
 import io.appium.java_client.MobileDriver;
-import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-
 import java.time.Duration;
-import java.util.ArrayList;
-import java.util.List;
 
 public class HomeScreen {
 

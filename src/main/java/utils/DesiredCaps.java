@@ -5,17 +5,17 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 
 public class DesiredCaps {
 
-    private  DesiredCapabilities dcaps;
+    private DesiredCapabilities dcaps;
 
-    public DesiredCapabilities getDCapsForEmulator(){
+    public DesiredCapabilities getDCapsForEmulator() {
 
         dcaps = DesiredCapabilities.android();
-        dcaps.setCapability("browserName","");
-        dcaps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
+        dcaps.setCapability("browserName", "");
+        dcaps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
         dcaps.setCapability("platformName", "Android");
         dcaps.setCapability("platformVersion", "9");
-        dcaps.setCapability("appPackage","au.com.youniverse");
-        dcaps.setCapability("app",new CommonUtils().getYOUnivereseAPKPath());
+        dcaps.setCapability("appPackage", "au.com.youniverse");
+        dcaps.setCapability("app", new CommonUtils().getYOUnivereseAPKPath());
 
         return dcaps;
     }

@@ -2,6 +2,8 @@ package dataObjects.auth;
 
 public class ChallengeDTO {
 
+    private String name;
+
     public String getName() {
         return name;
     }
@@ -10,5 +12,5 @@ public class ChallengeDTO {
         this.name = name;
     }
 
-    private String name;
+
 }

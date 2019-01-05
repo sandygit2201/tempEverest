@@ -2,22 +2,11 @@ package dataObjects.shifts;
 
 public class ClassificationDTO {
 
-     private  int id;
-     private String name;
-     private int level;
-     private int awardId;
-
-    public String getIsSalaried() {
-        return isSalaried;
-    }
-
-    public void setIsSalaried(String isSalaried) {
-        this.isSalaried = isSalaried;
-    }
-
+    private int id;
+    private String name;
+    private int level;
+    private int awardId;
     private String isSalaried;
-
-
 
     public int getId() {
         return id;
@@ -51,5 +40,11 @@ public class ClassificationDTO {
         this.awardId = awardId;
     }
 
+    public String getIsSalaried() {
+        return isSalaried;
+    }
 
+    public void setIsSalaried(String isSalaried) {
+        this.isSalaried = isSalaried;
+    }
 }
