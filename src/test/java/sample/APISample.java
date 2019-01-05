@@ -17,7 +17,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class TestExample {
+public class APISample {
 
 
      String strBaseURI = new ConfigReader().url();
