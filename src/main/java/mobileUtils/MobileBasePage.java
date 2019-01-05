@@ -13,7 +13,7 @@ public class MobileBasePage {
 
     private AppiumDriverLocalService appiumService ;
 
-    private URL url=null;
+    public static URL url=null;
 
     @BeforeTest
     public void startAppiumServerAndEmulator(){
@@ -33,6 +33,8 @@ public class MobileBasePage {
     @AfterTest
     public void stopAppiumServerAndEmulator(){
 
+
+        appiumService.stop();
 
     }
 

@@ -8,6 +8,7 @@ import io.appium.java_client.remote.MobileCapabilityType;
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
+import mobileUtils.MobileBasePage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.logging.LogEntries;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -19,34 +20,18 @@ import java.io.File;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.sql.Time;
 import java.time.Duration;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
-public class YOUniverseAndroid {
+public class YOUniverseAndroid extends MobileBasePage {
 
-    private AppiumDriverLocalService appiumService ;
+
     private AndroidDriver driver;
-    private URL url=null;
+    private List<String> listShifts= new ArrayList<String>();
 
-
-    @BeforeTest
-    public void startAppiumServer(){
-        appiumService = AppiumDriverLocalService.buildDefaultService();
-        appiumService.start();
-        System.out.println("Appium service Started");
-        try {
-            url = new URL("http://127.0.0.1:4723/wd/hub");
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-//        Start Emulator
-//        String command = "emulator -avd Nexus5XA9_86_64";
-//        try {
-//            Runtime.getRuntime().exec(command);
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-    }
 
     @Test
     public void Test123(){
@@ -54,8 +39,6 @@ public class YOUniverseAndroid {
         File file = new File("src/test/resources/apkFiles/YOUniverse.apk");
         String apkFilePath = file.getAbsolutePath();
         System.out.println(apkFilePath);
-
-
         DesiredCapabilities dcaps = DesiredCapabilities.android();
         dcaps.setCapability("browserName","");
         dcaps.setCapability(MobileCapabilityType.DEVICE_NAME,"Android Emulator");
@@ -64,49 +47,40 @@ public class YOUniverseAndroid {
         dcaps.setCapability("appPackage","au.com.youniverse");
         dcaps.setCapability("app",apkFilePath);
 
-       sleep(10);
 
-        driver = new AndroidDriver(url,dcaps);
+        driver = new AndroidDriver(MobileBasePage.url,dcaps);
+        driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
         driver.launchApp();
 
 
-        sleep(5);
 
         driver.findElement(By.xpath("//android.widget.EditText[@index='1']")).sendKeys("sally.mills@ynvr.se");
 
-        sleep(2);
         driver.hideKeyboard();
-        sleep(2);
         driver.findElement(By.xpath("//android.widget.EditText[@index='3']")).sendKeys("MargHerita");
 
-        sleep(2);
         driver.hideKeyboard();
-        sleep(2);
-//        driver.findElement(By.xpath("//android.widget.TextView[@text='Sign in']")).click();
 
         try {
             driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
-            sleep(2);
             driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
-            sleep(2);
             driver.findElement(By.xpath("//android.view.ViewGroup[@index='4']")).click();
 
-            sleep(5);
         }
         catch (Exception e){
             System.out.println("");
         }
-        sleep(5);
 
            driver.findElement(By.xpath("//android.view.ViewGroup[@index='2']")).click();
 
-           sleep(2);
 
           scrollAndPrintElements();
           scrollAndPrintElements();
           scrollAndPrintElements();
 
-          sleep(2);
+
+        System.out.println("Shifts Details");
+        listShifts.forEach(System.out::println);
 
 
     }
@@ -116,7 +90,7 @@ public class YOUniverseAndroid {
 
         for (MobileElement ele: textViews) {
 
-            System.out.println(ele.getText());
+            listShifts.add(ele.getText());
         }
 
         TouchAction touchAction = new TouchAction((MobileDriver)driver);
@@ -126,17 +100,9 @@ public class YOUniverseAndroid {
                 .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
                 .moveTo(PointOption.point(350,200))
                 .release().perform();
-        sleep(5);
 
     }
 
-    public void sleep(int sec){
-        try {
-            Thread.sleep(sec*1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 
     @AfterTest
     public void StopAppiumServer(){
@@ -146,10 +112,6 @@ public class YOUniverseAndroid {
         }catch (Exception e){
 
         }
-
-        sleep(10);
-
-        appiumService.stop();
 
 
     }

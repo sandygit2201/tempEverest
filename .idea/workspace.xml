@@ -2,30 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/appiumTests/WorkginScript.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/api/Shifts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/api/Shifts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Shifts_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefs/TestSteps.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Shifts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/Shifts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/Authorisation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Authorisation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/BaseApiReq.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/BaseApiReq.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/api/Shifts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/api/Shifts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shiftsRes.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shiftsResFull.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/MemberDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/MemberDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationResDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/AuthorisationResDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/auth/ChallengeDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/auth/ChallengeDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/BreakDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/BreakDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ClassificationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ClassificationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftPositionDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftPositionDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsReqDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsReqDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsResDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/ShiftsResDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubLocationDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubLocationDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubShiftDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dataObjects/shifts/SubShiftDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mobileUtils/MobileBasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mobileUtils/MobileBasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/ConfigReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Shifts_Steps.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/AppiumAndroid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/FirstTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/PropertiesReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/UserDataReder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/UserDataReder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/WorkginScript.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/WorkginScript.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Shifts.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sample/TestExample.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/stepDefs/TestSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/stepDefs/Shifts_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/stepDefs/Shifts_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sample/APISample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sample/APISample.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,23 +47,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+            <state relative-caret-position="331">
+              <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1071#1079#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/CommonUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -65,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/WorkginScript.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -73,8 +81,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="111">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -117,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/test.feature" />
         <option value="$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/stepDefs/test.feature" />
         <option value="$PROJECT_DIR$/src/test/java/features/stepDefs/TestSteps.java" />
@@ -166,7 +172,9 @@
         <option value="$PROJECT_DIR$/src/main/java/mobileTestUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/appiumTests/WorkginScript.java" />
         <option value="$PROJECT_DIR$/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" />
         <option value="$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" />
       </list>
     </option>
@@ -214,6 +222,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
@@ -274,11 +290,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546689421048" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546700046979" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -306,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.YOUniverseAndroid (2)">
+  <component name="RunManager" selected="TestNG.YOUniverseAndroid (4)">
     <configuration name="AppiumAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
@@ -317,22 +333,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="appiumTests" />
       <option name="MAIN_CLASS_NAME" value="appiumTests.AppiumAndroid" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WorkginScript" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mobileAutomaiton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="appiumTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="appiumTests" />
-      <option name="MAIN_CLASS_NAME" value="appiumTests.WorkginScript" />
       <properties />
       <listeners />
       <method v="2">
@@ -356,6 +356,22 @@
       </method>
     </configuration>
     <configuration name="YOUniverseAndroid (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAutomaiton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appiumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.YOUniverseAndroid" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="YOUniverseAndroid (4)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
@@ -407,10 +423,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.YOUniverseAndroid (4)" />
         <item itemvalue="TestNG.YOUniverseAndroid (2)" />
         <item itemvalue="TestNG.YOUniverseAndroid" />
         <item itemvalue="TestNG.YOUniverseAndroid (1)" />
-        <item itemvalue="TestNG.WorkginScript" />
         <item itemvalue="TestNG.YOUniverseAndroid.Test123" />
       </list>
     </recent_temporary>
@@ -429,24 +445,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 16h 16m 18s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_(1) - 2019.01.05 at 16h 21m 20s.xml">
-      <configuration name="YOUniverseAndroid (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 16h 23m 05s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 17h 14m 01s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 17h 14m 54s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="WorkginScript - 2019.01.05 at 17h 16m 45s.xml">
-      <configuration name="WorkginScript" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="YOUniverseAndroid_(1) - 2019.01.05 at 17h 18m 22s.xml">
       <configuration name="YOUniverseAndroid (1)" configurationId="TestNG" />
     </history-entry>
@@ -459,10 +457,57 @@
     <history-entry file="YOUniverseAndroid_(2) - 2019.01.05 at 17h 28m 35s.xml">
       <configuration name="YOUniverseAndroid (2)" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="YOUniverseAndroid_(3) - 2019.01.05 at 19h 25m 54s.xml">
+      <configuration name="YOUniverseAndroid (3)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 19h 30m 19s.xml">
+      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_(1) - 2019.01.05 at 19h 42m 48s.xml">
+      <configuration name="YOUniverseAndroid (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid - 2019.01.05 at 19h 45m 30s.xml">
+      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_(2) - 2019.01.05 at 19h 51m 08s.xml">
+      <configuration name="YOUniverseAndroid (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_(4) - 2019.01.05 at 20h 16m 00s.xml">
+      <configuration name="YOUniverseAndroid (4)" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
+    <editor active="true" />
     <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
+      <window_info id="Image Layers" order="4" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.27110156" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.44832402" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="2" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39106146" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout>
+    <layout-to-restore>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
@@ -489,34 +534,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Designer" order="0" />
-      <window_info id="UI Designer" order="1" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
-      <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.44832402" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="2" weight="0.32960895" />
-      <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
-      <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.39106146" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Theme Preview" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="1" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
     </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
@@ -527,12 +544,6 @@
           <line>79</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java</url>
-          <line>55</line>
-          <properties />
-          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -960,29 +971,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/WorkginScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="111">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/WorkginScript.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/CommonUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="31" column="30" lean-forward="true" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state relative-caret-position="90">
+          <caret line="6" column="25" lean-forward="true" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+        <state relative-caret-position="331">
+          <caret line="100" column="51" lean-forward="true" selection-start-line="100" selection-start-column="51" selection-end-line="100" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1071#1079#0" expanded="true" />
           </folding>
         </state>
       </provider>
