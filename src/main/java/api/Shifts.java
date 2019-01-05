@@ -34,5 +34,14 @@ public class Shifts extends BaseApiReq {
 
     }
 
+    public void printShifts(List<ShiftsResDTO> shifts){
+        for (ShiftsResDTO shift:shifts) {
+            System.out.println(shift.getSubLocation().getName() +" at "+shift.getShiftPosition().getName());
+            System.out.println(shift.getStartTime());
+            System.out.println(shift.getEndTime());
+            System.out.println("----------------------------------");
+        }
+    }
+
 
 }
