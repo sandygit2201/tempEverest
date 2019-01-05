@@ -96,6 +96,9 @@ public class TestExample {
 
 
             System.out.println(Location + " at " + shiftPositon);
+            System.out.println(shiftDetails.getStartTime());
+            System.out.println(shiftDetails.getEndTime());
+            System.out.println("----------------------------------");
 
 
         }

@@ -22,11 +22,4 @@ public class ConfigReader {
         return properties.get(property).toString();
     }
 
-    @Test
-    public void testsdfa(){
-
-        System.out.println(url());
-    }
-
-
 }

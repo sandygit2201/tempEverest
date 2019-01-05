@@ -100,7 +100,7 @@ public class YOUniverseAndroid {
     }
 
     public void scrollAndPrintElements(){
-        List<MobileElement> textViews = driver.findElements(By.xpath("//android.widget.TextView"));
+        List<MobileElement> textViews = driver.findElements(By.xpath("//android.widget.ScrollView//android.widget.TextView"));
 
         for (MobileElement ele: textViews) {
 
@@ -128,6 +128,8 @@ public class YOUniverseAndroid {
 
     @AfterTest
     public void StopAppiumServer(){
+
+        sleep(30);
 
 //        appiumService.stop();
 
