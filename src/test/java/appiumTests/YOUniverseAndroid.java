@@ -1,17 +1,16 @@
 package appiumTests;
 
+import MobileScreens.HomeScreen;
+import MobileScreens.LoginScreen;
+import MobileScreens.ShiftsScreen;
 import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
 import mobileUtils.MobileBasePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
-import MobileScreens.HomeScreen;
-import MobileScreens.LoginScreen;
-import MobileScreens.ShiftsScreen;
 import utils.DriverInit;
 import utils.ShiftsUtils;
 import utils.UserDataReder;
-import java.util.List;
 
 public class YOUniverseAndroid extends MobileBasePage {
 
