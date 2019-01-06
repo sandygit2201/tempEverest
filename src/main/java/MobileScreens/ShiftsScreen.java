@@ -1,4 +1,4 @@
-package pages;
+package MobileScreens;
 
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
