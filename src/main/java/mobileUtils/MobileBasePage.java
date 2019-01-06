@@ -1,7 +1,9 @@
 package mobileUtils;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import java.net.MalformedURLException;
@@ -13,7 +15,7 @@ public class MobileBasePage {
 
     public static URL url = null;
 
-    @BeforeTest
+    @BeforeSuite
     public void startAppiumServerAndEmulator() {
 
         appiumService = AppiumDriverLocalService.buildDefaultService();
@@ -27,7 +29,7 @@ public class MobileBasePage {
 
     }
 
-    @AfterTest
+    @AfterSuite
     public void stopAppiumServerAndEmulator() {
 
         appiumService.stop();

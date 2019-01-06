@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="YOUniverseMobileAutomation" verbose="1" >
+    <test name="Android-VerifyShifts" >
+        <parameter name = "androidVersion" value="9"/>
+        <classes>
+            <class name="appiumTests.YOUniverseAndroid"/>
+        </classes>
+    </test>
+</suite>
