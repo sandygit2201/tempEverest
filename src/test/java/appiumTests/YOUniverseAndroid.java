@@ -7,6 +7,7 @@ import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
 import mobileUtils.MobileBasePage;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.DriverInit;
 import utils.ShiftsUtils;
@@ -19,9 +20,10 @@ public class YOUniverseAndroid extends MobileBasePage {
     private ShiftsUtils shiftsUtils = new ShiftsUtils();
 
     @Test
-    public void getShifts() {
+    @Parameters("androidVersion")
+    public void getShifts(String androidVersion) {
 
-        driver = new DriverInit().getAndroidDriverForEmulator();
+        driver = new DriverInit().getAndroidDriverForEmulator(androidVersion);
         driver.launchApp();
 
         LoginScreen loginPage = new LoginScreen(driver);

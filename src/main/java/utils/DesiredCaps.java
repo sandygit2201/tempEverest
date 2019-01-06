@@ -7,13 +7,13 @@ public class DesiredCaps {
 
     private DesiredCapabilities dcaps;
 
-    public DesiredCapabilities getDCapsForEmulator() {
+    public DesiredCapabilities getDCapsForEmulator(String androidVersion) {
 
         dcaps = DesiredCapabilities.android();
         dcaps.setCapability("browserName", "");
         dcaps.setCapability(MobileCapabilityType.DEVICE_NAME, "Android Emulator");
         dcaps.setCapability("platformName", "Android");
-        dcaps.setCapability("platformVersion", "9");
+        dcaps.setCapability("platformVersion", androidVersion);
         dcaps.setCapability("appPackage", "au.com.youniverse");
         dcaps.setCapability("app", new CommonUtils().getYOUnivereseAPKPath());
 

@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="YOUniverseMobileAutomation" verbose="1" >
-    <test name="Android-VerifyShifts" >
-        <parameter name = "androidVersion" value="9"/>
+<suite name="YOUniverseMobileAutomation" paralle="tests" thread-count="5">
+    <test name="Android8-VerifyShifts">
+        <parameter name="androidVersion" value="8"/>
+        <classes>
+            <class name="appiumTests.YOUniverseAndroid"/>
+        </classes>
+    </test>
+    <test name="Android9-VerifyShifts">
+        <parameter name="androidVersion" value="9"/>
         <classes>
             <class name="appiumTests.YOUniverseAndroid"/>
         </classes>
