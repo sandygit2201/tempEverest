@@ -14,7 +14,7 @@ public class DriverInit {
 
         dcaps = new DesiredCaps();
         driver = new AndroidDriver(MobileBasePage.url, dcaps.getDCapsForEmulator());
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.MINUTES);
+        driver.manage().timeouts().implicitlyWait(45, TimeUnit.SECONDS);
 
         return driver;
     }

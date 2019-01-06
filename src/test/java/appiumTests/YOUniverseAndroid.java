@@ -9,6 +9,7 @@ import MobileScreens.HomeScreen;
 import MobileScreens.LoginScreen;
 import MobileScreens.ShiftsScreen;
 import utils.DriverInit;
+import utils.ShiftsUtils;
 import utils.UserDataReder;
 import java.util.List;
 
@@ -16,9 +17,10 @@ public class YOUniverseAndroid extends MobileBasePage {
 
 
     private AndroidDriver driver;
+    private ShiftsUtils shiftsUtils = new ShiftsUtils();
 
     @Test
-    public void Test123() {
+    public void getShifts() {
 
         driver = new DriverInit().getAndroidDriverForEmulator();
         driver.launchApp();
@@ -36,10 +38,7 @@ public class YOUniverseAndroid extends MobileBasePage {
         ShiftsScreen shiftsScreen = new ShiftsScreen(driver);
         PageFactory.initElements(driver, shiftsScreen);
 
-        List<String> listShiftsInfo = shiftsScreen.getShiftsInfo();
-
-        for (String shift : listShiftsInfo)
-            System.out.println(shift);
+        shiftsUtils.printShiftDetails(shiftsScreen.getShiftsInfo());
 
         driver.closeApp();
 

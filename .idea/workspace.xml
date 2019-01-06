@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/ShiftsUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/sample/FilterShifts.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomeScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/ShiftsScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,106 +26,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="310">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/UserDataReder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/AndroidFirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1089">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/APISample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="843">
-              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+            <state relative-caret-position="240">
+              <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -161,8 +84,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/shiftsRes.json" />
-        <option value="$PROJECT_DIR$/src/main/java/dataObjects/shifts/BreakDTO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/shiftsResFull.json" />
         <option value="$PROJECT_DIR$/src/main/java/dataObjects/shifts/SubShiftDTO.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataObjects/AuthorisationResDTO.java" />
@@ -205,13 +126,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/ShiftsScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/CommonUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java" />
-        <option value="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" />
         <option value="$PROJECT_DIR$/src/test/java/appiumTests/AndroidFirstTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/Shifts.feature" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/sample/StartAVD.java" />
+        <option value="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/ShiftsUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sample/FilterShifts.java" />
+        <option value="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" />
       </list>
     </option>
   </component>
@@ -307,14 +230,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -386,7 +301,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546711130221" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546767765094" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -418,9 +333,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.YOUniverseAndroid.Test123">
-    <configuration name="StartAVD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sample.StartAVD" />
+  <component name="RunManager" selected="TestNG.YOUniverseAndroid.getShifts">
+    <configuration name="FilterShifts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sample.FilterShifts" />
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
@@ -482,22 +397,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="YOUniverseAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mobileAutomaiton" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="appiumTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="appiumTests" />
-      <option name="MAIN_CLASS_NAME" value="appiumTests.YOUniverseAndroid" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="YOUniverseAndroid.Test123" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
@@ -516,13 +415,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YOUniverseAndroid.getShifts" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mobileAutomaiton" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="appiumTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="appiumTests" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.YOUniverseAndroid" />
+      <option name="METHOD_NAME" value="getShifts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.YOUniverseAndroid.Test123" />
+        <item itemvalue="TestNG.YOUniverseAndroid.getShifts" />
         <item itemvalue="TestNG.YOUniverseAndroid" />
         <item itemvalue="Cucumber java.Feature: Shifts" />
-        <item itemvalue="Application.StartAVD" />
-        <item itemvalue="TestNG.YOUniverseAndroid (4)" />
+        <item itemvalue="Application.FilterShifts" />
+        <item itemvalue="TestNG.YOUniverseAndroid.Test123" />
       </list>
     </recent_temporary>
   </component>
@@ -540,27 +457,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 21h 10m 52s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid - 2019.01.05 at 22h 14m 40s.xml">
-      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 22h 16m 35s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 22h 23m 12s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 22h 25m 37s.xml">
-      <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Feature__Shifts - 2019.01.05 at 22h 25m 59s.xml">
-      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Feature__Shifts - 2019.01.05 at 23h 16m 01s.xml">
-      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="YOUniverseAndroid - 2019.01.05 at 23h 16m 53s.xml">
       <configuration name="YOUniverseAndroid" configurationId="TestNG" />
     </history-entry>
@@ -569,6 +465,27 @@
     </history-entry>
     <history-entry file="YOUniverseAndroid_Test123 - 2019.01.05 at 23h 29m 24s.xml">
       <configuration name="YOUniverseAndroid.Test123" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid - 2019.01.06 at 12h 23m 38s.xml">
+      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid - 2019.01.06 at 12h 24m 31s.xml">
+      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 13h 33m 29s.xml">
+      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Feature__Shifts - 2019.01.06 at 15h 00m 18s.xml">
+      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid - 2019.01.06 at 15h 09m 06s.xml">
+      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid - 2019.01.06 at 15h 09m 44s.xml">
+      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 15h 11m 56s.xml">
+      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -640,11 +557,52 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/sample/FilterShifts.java</url>
+          <line>93</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>str.matches(pattern)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pattern = &quot;/[A-Za-z0-9\\:\\s\\–]/g&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pattern</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pattern = &quot;[A-Za-z0-9\\:\\s\\–]&quot;</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>str</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pattern.matcher(str)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>pattern.matcher(str).matches()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>userShifts.get(0).subLocation.getName()</expression-string>
         <language-id>JAVA</language-id>
@@ -652,46 +610,6 @@
       </expression>
       <expression>
         <expression-string>userShifts.get(0).subLocation.name</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>userShifts</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.jsonPath().toJsonString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.jsonPath()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response.toString()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>response</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jsonPathEvaluator</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>jsonPathEvaluator.get()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>authorisationResDTO</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -1098,17 +1016,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/api/Shifts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomeScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/HomeScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
@@ -1119,17 +1027,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/ShiftsScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/ShiftsScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
@@ -1163,16 +1061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/PropertiesReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1200,37 +1088,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sample/APISample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="843">
-          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="411">
           <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1241,10 +1102,87 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/APISample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="307">
+          <caret line="24" column="26" lean-forward="true" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/api/Shifts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/ShiftsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="30" column="9" lean-forward="true" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/FilterShifts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="83" column="81" selection-start-line="83" selection-start-column="81" selection-end-line="83" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/LoginScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="310">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="70" selection-start-line="16" selection-start-column="70" selection-end-line="16" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
