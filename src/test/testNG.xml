@@ -1,6 +1,7 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="YOUniverseMobileAutomation" parallel="tests" thread-count="5">
+<!--<suite name="YOUniverseMobileAutomation" parallel="tests" thread-count="5">-->
+<suite name="YOUniverseMobileAutomation" >
     <test name="Android8-VerifyShifts">
         <parameter name="androidVersion" value="8"/>
         <classes>

@@ -7,8 +7,11 @@ import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
 import mobileUtils.MobileBasePage;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+import utils.CommonUtils;
 import utils.DriverInit;
 import utils.ShiftsUtils;
 import utils.UserDataReder;
@@ -18,6 +21,7 @@ public class YOUniverseAndroid extends MobileBasePage {
 
     private AndroidDriver driver;
     private ShiftsUtils shiftsUtils = new ShiftsUtils();
+    private CommonUtils commonUtils = new CommonUtils();
 
     @Test
     @Parameters("androidVersion")
@@ -25,6 +29,7 @@ public class YOUniverseAndroid extends MobileBasePage {
 
         driver = new DriverInit().getAndroidDriverForEmulator(androidVersion);
         driver.launchApp();
+        commonUtils.sleep(2);
 
         LoginScreen loginPage = new LoginScreen(driver);
         PageFactory.initElements(driver, loginPage);
@@ -41,8 +46,13 @@ public class YOUniverseAndroid extends MobileBasePage {
 
         shiftsUtils.printShiftDetails(shiftsScreen.getShiftsInfo());
 
-        driver.closeApp();
 
+
+    }
+
+    @AfterTest
+    public void closeApp(){
+        driver.closeApp();
     }
 
 

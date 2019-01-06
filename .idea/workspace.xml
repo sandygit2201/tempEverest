@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/appiumTests/YOUniverseAndroid.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,64 +23,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="338">
-              <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
+            <state relative-caret-position="172">
+              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1701">
-              <caret line="133" column="31" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DriverInit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="217">
-              <caret line="15" column="95" selection-start-line="15" selection-start-column="95" selection-end-line="15" selection-end-column="95" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="15" column="61" selection-start-line="15" selection-start-column="61" selection-end-line="15" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/mobileUtils/MobileBasePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="31" column="15" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1604#1605#0" expanded="true" />
+                <element signature="e#1637#1638#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            <state relative-caret-position="45">
+              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -233,7 +183,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546785430983" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546788178972" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -265,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG./Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml">
+  <component name="RunManager" selected="Cucumber java.Feature: Shifts">
     <configuration name="Feature: Shifts" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="3" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Shifts.feature" />
@@ -284,7 +234,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppiumAndroid" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="YOUniverseAndroid (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="mobileAutomaiton" />
       <extension name="coverage">
         <pattern>
@@ -293,7 +243,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="appiumTests" />
-      <option name="MAIN_CLASS_NAME" value="appiumTests.AppiumAndroid" />
+      <option name="MAIN_CLASS_NAME" value="appiumTests.YOUniverseAndroid" />
       <properties />
       <listeners />
       <method v="2">
@@ -382,8 +332,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG./Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" />
         <item itemvalue="Cucumber java.Feature: Shifts" />
+        <item itemvalue="TestNG./Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" />
+        <item itemvalue="TestNG.YOUniverseAndroid (1)" />
         <item itemvalue="TestNG.YOUniverseAndroid.getShifts" />
         <item itemvalue="TestNG.YOUniverseAndroid" />
       </list>
@@ -403,34 +354,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 09m 34s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 16m 34s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 33m 39s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 21m 05s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 37m 57s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 21m 56s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 39m 09s.xml">
+    <history-entry file="YOUniverseAndroid_(1) - 2019.01.06 at 20h 22m 05s.xml">
+      <configuration name="YOUniverseAndroid (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 22m 16s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 42m 57s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 23m 36s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 47m 35s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 25m 02s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 50m 17s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 26m 03s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 51m 32s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 28m 51s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 54m 59s.xml">
-      <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 04m 03s.xml">
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 52m 21s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -443,7 +394,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.28351957" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.44832402" />
@@ -451,7 +402,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37569833" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.37569833" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -1045,16 +996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="25" column="76" selection-start-line="25" selection-start-column="76" selection-end-line="25" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1701">
@@ -1062,10 +1003,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1604#1605#0" expanded="true" />
+            <element signature="e#1637#1638#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+        <state relative-caret-position="45">
+          <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
         </state>
       </provider>
     </entry>
