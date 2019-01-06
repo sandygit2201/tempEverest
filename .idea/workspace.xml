@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/AndroidFirstTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sample/AndroidFirstTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,11 +17,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-55">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="147">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -32,22 +51,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/APISample.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="107" column="1" selection-start-line="107" selection-start-column="1" selection-end-line="107" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/sample/AndroidFirstTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -135,9 +142,9 @@
         <option value="$PROJECT_DIR$/src/main/java/api/Shifts.java" />
         <option value="$PROJECT_DIR$/src/test/java/features/Shifts.feature" />
         <option value="$PROJECT_DIR$/src/main/java/api/AuthorisationReq.java" />
-        <option value="$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java" />
         <option value="$PROJECT_DIR$/src/main/java/dataObjects/shifts/BreakDTO.java" />
         <option value="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" />
+        <option value="$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java" />
       </list>
     </option>
   </component>
@@ -198,48 +205,6 @@
               <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataObjects" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataObjects" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dataObjects" type="462c0819:PsiDirectoryNode" />
-              <item name="shifts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="MobileScreens" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mobileUtils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -276,23 +241,6 @@
               <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
-              <item name="stepDefs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="sample" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -311,7 +259,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546775657570" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546777039492" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -453,8 +401,6 @@
         <item itemvalue="Cucumber java.Feature: Shifts" />
         <item itemvalue="TestNG.YOUniverseAndroid.getShifts" />
         <item itemvalue="TestNG.YOUniverseAndroid" />
-        <item itemvalue="TestNG.YOUniverseAndroid.getShifts (2)" />
-        <item itemvalue="TestNG.YOUniverseAndroid.getShifts (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -472,24 +418,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 16h 24m 45s.xml">
-      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid - 2019.01.06 at 16h 25m 33s.xml">
-      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 16h 27m 28s.xml">
-      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 16h 29m 04s.xml">
-      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid - 2019.01.06 at 16h 34m 13s.xml">
-      <configuration name="YOUniverseAndroid" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 16h 35m 44s.xml">
-      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="Feature__Shifts - 2019.01.06 at 16h 37m 22s.xml">
       <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
@@ -500,6 +428,24 @@
       <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
     <history-entry file="Feature__Shifts - 2019.01.06 at 16h 44m 35s.xml">
+      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Shifts - 2019.01.06 at 17h 41m 41s.xml">
+      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Shifts - 2019.01.06 at 17h 41m 51s.xml">
+      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 17h 43m 44s.xml">
+      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="YOUniverseAndroid_getShifts - 2019.01.06 at 17h 44m 30s.xml">
+      <configuration name="YOUniverseAndroid.getShifts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Feature__Shifts - 2019.01.06 at 17h 45m 04s.xml">
+      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Feature__Shifts - 2019.01.06 at 17h 46m 24s.xml">
       <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
   </component>
@@ -514,13 +460,13 @@
       <window_info id="Image Layers" order="4" />
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" visible="true" weight="0.28351957" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.28351957" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.44832402" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.32960895" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.37569833" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37569833" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -571,6 +517,12 @@
           <line>79</line>
           <properties />
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -628,79 +580,14 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/test/resources/MyStepdefs.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/YamlReader.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shiftsRes.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/shiftsResFull.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26415">
-          <caret line="1761" column="43" selection-start-line="1761" selection-start-column="43" selection-end-line="1761" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/AppiumAndroid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="58" column="27" selection-start-line="57" selection-start-column="7" selection-end-line="58" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sample/ConverRequiredShiftFomat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="51" column="5" lean-forward="true" selection-start-line="51" selection-start-column="5" selection-end-line="51" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#225#233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefs/TestSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/apiRunner/ShiftsRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mobileTestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" selection-start-column="29" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shiftsRes.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/shiftsResFull.json" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/AppiumAndroid.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/FirstTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/ConverRequiredShiftFomat.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/stepDefs/TestSteps.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/apiRunner/ShiftsRunner.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mobileTestUtils.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dataObjects/auth/AuthorisationResDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5">
@@ -927,14 +814,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/LoginScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/mobileScreens/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
@@ -954,14 +835,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/userinfo.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/HomeScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mobileScreens/HomeScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
@@ -971,7 +845,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MobileScreens/ShiftsScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/mobileScreens/ShiftsScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
@@ -981,16 +855,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/sample/FilterShifts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="523">
-          <caret line="83" column="81" selection-start-line="83" selection-start-column="81" selection-end-line="83" selection-end-column="81" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/sample/FilterShifts.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dataObjects/shifts/ShiftsResDTO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1071,33 +936,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="47" column="61" selection-start-line="47" selection-start-column="61" selection-end-line="47" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1188,10 +1026,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/userinfo.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-55">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="240">
+          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/stepDefs/Shifts_Steps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="16" column="53" lean-forward="true" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/features/Shifts.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" lean-forward="true" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/apiReq/AuthorisationReq.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

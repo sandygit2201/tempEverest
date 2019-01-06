@@ -19,13 +19,13 @@ public class AuthorisationReq extends BaseApiReq {
 
         RestAssured.baseURI = strBaseURI;
         JsonObject userData = new JsonObject();
-        userData.addProperty("emailAddress", user.getEmailAddress());
-        userData.addProperty("password", user.getPassword());
+        userData.addProperty("emailAddress", user.getEmailAddress().trim());
+        userData.addProperty("password", user.getPassword().trim());
         RequestSpecification httpRequest = RestAssured.given();
         Response response = (Response) httpRequest.
                 header("Content-Type", "application/json")
                 .body(userData.toString())
-                .post("/AuthorisationReq/token");
+                .post("/Authorisation/token");
 
         return response;
     }
