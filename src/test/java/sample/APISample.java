@@ -32,7 +32,7 @@ public class APISample {
         RequestSpecification httpRequest = RestAssured.given();
         Response response = (Response) httpRequest.header("Content-Type", "application/json")
                 .body(userData.toString())
-                .post("/Authorisation/token");
+                .post("/AuthorisationReq/token");
 
         JsonPath jsonPathEvaluator = response.jsonPath();
 

@@ -1,4 +1,4 @@
-package api;
+package apiReq;
 
 import dataObjects.UserDTO;
 import dataObjects.auth.AuthorisationResDTO;
@@ -12,7 +12,7 @@ import utils.UserDataReder;
 import static org.assertj.core.api.Assertions.assertThat;
 
 
-public class Authorisation extends BaseApiReq {
+public class AuthorisationReq extends BaseApiReq {
 
 
     private Response getAuthorisationResponse(UserDTO user) {
@@ -25,7 +25,7 @@ public class Authorisation extends BaseApiReq {
         Response response = (Response) httpRequest.
                 header("Content-Type", "application/json")
                 .body(userData.toString())
-                .post("/Authorisation/token");
+                .post("/AuthorisationReq/token");
 
         return response;
     }

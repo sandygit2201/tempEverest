@@ -24,9 +24,9 @@ public class HomeScreen {
 
     public void ScrollToBottom() {
         TouchAction touchAction = new TouchAction((MobileDriver) driver);
-        touchAction.press(PointOption.point(350, 1200))
+        touchAction.press(PointOption.point(350, 1960))
                 .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(1)))
-                .moveTo(PointOption.point(350, 200))
+                .moveTo(PointOption.point(350, 360))
                 .release().perform();
     }
 

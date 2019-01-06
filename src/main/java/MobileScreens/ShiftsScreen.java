@@ -24,9 +24,6 @@ public class ShiftsScreen extends HomeScreen {
         scrollAndGetShifts();
         ScrollToBottom();
         scrollAndGetShifts();
-        ScrollToBottom();
-        scrollAndGetShifts();
-        ScrollToBottom();
 
         return listShifts;
     }

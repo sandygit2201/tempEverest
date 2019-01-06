@@ -1,4 +1,4 @@
-package api;
+package apiReq;
 
 import dataObjects.shifts.ShiftsReqDTO;
 import dataObjects.shifts.ShiftsResDTO;
@@ -10,7 +10,7 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class Shifts extends BaseApiReq {
+public class ShiftsReq extends BaseApiReq {
 
     private RequestSpecification httpRequest;
     private Response response;
@@ -44,6 +44,8 @@ public class Shifts extends BaseApiReq {
             System.out.println(shift.getEndTime());
             System.out.println("----------------------------------");
         }
+
+        System.out.println("Total ShiftsReq for user:"+shifts.size());
     }
 
 

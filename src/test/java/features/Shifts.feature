@@ -4,7 +4,7 @@ Feature: YOUnivers API tests
 
   Scenario: get Shifts Details
 
-    Given get shifts for user "sally" from "2019-01-01T00:00:00" to "2019-11-04T23:59:59"
+    Given get shifts for user "sally" from "2019-01-06T00:00:00" to "2019-01-11T23:59:59"
 
 
 
