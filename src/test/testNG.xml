@@ -4,12 +4,14 @@
 <suite name="YOUniverseMobileAutomation" >
     <test name="Android8-VerifyShifts">
         <parameter name="androidVersion" value="8"/>
+        <parameter name="user" value="sally"/>
         <classes>
             <class name="appiumTests.YOUniverseAndroid"/>
         </classes>
     </test>
     <test name="Android9-VerifyShifts">
         <parameter name="androidVersion" value="9"/>
+        <parameter name="user" value="sally"/>
         <classes>
             <class name="appiumTests.YOUniverseAndroid"/>
         </classes>

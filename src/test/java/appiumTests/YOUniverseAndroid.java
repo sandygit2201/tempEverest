@@ -24,8 +24,8 @@ public class YOUniverseAndroid extends MobileBasePage {
     private CommonUtils commonUtils = new CommonUtils();
 
     @Test
-    @Parameters("androidVersion")
-    public void getShifts(String androidVersion) {
+    @Parameters({"androidVersion", "user"})
+    public void getShifts(String androidVersion, String user) {
 
         driver = new DriverInit().getAndroidDriverForEmulator(androidVersion);
         driver.launchApp();
@@ -34,8 +34,8 @@ public class YOUniverseAndroid extends MobileBasePage {
         LoginScreen loginPage = new LoginScreen(driver);
         PageFactory.initElements(driver, loginPage);
 
-        UserDTO user = new UserDataReder().getUser("sally");
-        loginPage.loginToAPP(user);
+        UserDTO userDTO = new UserDataReder().getUser(user);
+        loginPage.loginToAPP(userDTO);
 
         HomeScreen homePage = new HomeScreen(driver);
         PageFactory.initElements(driver, homePage);
@@ -47,11 +47,10 @@ public class YOUniverseAndroid extends MobileBasePage {
         shiftsUtils.printShiftDetails(shiftsScreen.getShiftsInfo());
 
 
-
     }
 
     @AfterTest
-    public void closeApp(){
+    public void closeApp() {
         driver.closeApp();
     }
 
