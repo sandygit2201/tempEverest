@@ -1,4 +1,4 @@
-package MobileScreens;
+package mobileScreens;
 
 import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;

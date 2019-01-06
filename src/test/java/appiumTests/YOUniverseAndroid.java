@@ -1,8 +1,8 @@
 package appiumTests;
 
-import MobileScreens.HomeScreen;
-import MobileScreens.LoginScreen;
-import MobileScreens.ShiftsScreen;
+import mobileScreens.HomeScreen;
+import mobileScreens.LoginScreen;
+import mobileScreens.ShiftsScreen;
 import dataObjects.UserDTO;
 import io.appium.java_client.android.AndroidDriver;
 import mobileUtils.MobileBasePage;
