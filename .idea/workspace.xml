@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="22be52e0-f2bd-4a65-ab6a-6ae94e967755" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DesiredCaps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DriverInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/appiumTests/YOUniverseAndroid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/testNG.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,6 +26,15 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1701">
+              <caret line="133" column="31" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -81,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/testNG.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -114,6 +120,7 @@
       <find>assertj</find>
       <find>ap</find>
       <find>chrome</find>
+      <find>testng</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -216,25 +223,7 @@
             <path>
               <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
               <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="appiumTests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mobileAutomaiton" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileAutomaiton" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +233,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546784635477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546785430983" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -414,12 +403,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 18h 56m 56s.xml">
-      <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="Feature__Shifts - 2019.01.06 at 18h 57m 12s.xml">
-      <configuration name="Feature: Shifts" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
     <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 09m 34s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
@@ -444,6 +427,12 @@
     <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 51m 32s.xml">
       <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 19h 54m 59s.xml">
+      <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="_Users_sandeep_Documents_Youniverse_mobileAutomaiton_src_test_testNG_xml - 2019.01.06 at 20h 04m 03s.xml">
+      <configuration name="/Users/sandeep/Documents/Youniverse/mobileAutomaiton/src/test/testNG.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
@@ -454,7 +443,7 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" weight="0.3297568" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.27110156" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49928468" weight="0.28351957" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007153" side_tool="true" weight="0.44832402" />
@@ -462,7 +451,7 @@
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32960895" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.37569833" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37569833" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3980447" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -793,13 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="131" column="8" selection-start-line="131" selection-start-column="8" selection-end-line="131" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sample/StartAVD.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mobileScreens/LoginScreen.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1073,10 +1055,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1701">
+          <caret line="133" column="31" selection-start-line="133" selection-start-column="25" selection-end-line="133" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/testNG.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="73" selection-start-line="1" selection-start-column="73" selection-end-line="1" selection-end-column="73" />
+        <state relative-caret-position="135">
+          <caret line="9" column="39" lean-forward="true" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>
