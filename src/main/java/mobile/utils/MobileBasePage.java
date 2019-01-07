@@ -1,6 +1,7 @@
 package mobile.utils;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
+import mobile.LaunchAVDs;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 
@@ -12,9 +13,13 @@ public class MobileBasePage {
     private AppiumDriverLocalService appiumService;
 
     public static URL url = null;
+    private LaunchAVDs launchAVDs = new LaunchAVDs();
+
 
     @BeforeSuite
     public void startAppiumServerAndEmulator() {
+
+        launchAVDs.startAndroidEmulators();
 
         appiumService = AppiumDriverLocalService.buildDefaultService();
         appiumService.start();
@@ -31,6 +36,7 @@ public class MobileBasePage {
     public void stopAppiumServerAndEmulator() {
 
         appiumService.stop();
+        launchAVDs.stopAndroidEmulators();
 
     }
 
