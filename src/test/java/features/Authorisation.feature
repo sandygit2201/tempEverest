@@ -4,4 +4,5 @@ Feature: Verify Authorization apis
     Given
 
   Scenario: Verify Authorisation response for valid user
-    Given get Authorisation for user
+    Given get Authorisation for user "sally"
+    Then Authorisation response status should be 201

@@ -1,11 +1,11 @@
 package cucumber;
 
-//import cucumber.api.java.Before;
+import cucumber.api.java.Before;
 
 
 public class Hooks {
 
-//    @Before
+    @Before
     public void BeforeScenario(){
 
         System.out.println("before hooks");

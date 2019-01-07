@@ -19,7 +19,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class AuthorisationReq extends BaseApiReq {
 
 
-    private Response getAuthorisationResponse(UserDTO user) {
+    public Response getAuthorisationResponse(UserDTO user) {
 
         RestAssured.baseURI = strBaseURI;
         JsonObject userData = new JsonObject();
