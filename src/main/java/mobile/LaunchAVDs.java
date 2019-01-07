@@ -15,7 +15,7 @@ public class LaunchAVDs {
         startEmulator(nexusEmulatorAndroid8);
         startEmulator(nexusEmulatorAndroid9);
 
-        new CommonUtils().sleep(4);
+        new CommonUtils().sleep(30);
     }
 
     public void startEmulator(String deviceName) {
