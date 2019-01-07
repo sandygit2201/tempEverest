@@ -13,7 +13,7 @@ public class CommonUtils {
     }
 
     public String getYOUnivereseAPKPath() {
-        File file = new File("src/test/resources/apkFiles/YOUniverse.apk");
+        File file = new File(new ConfigReader().getApkPath());
         return file.getAbsolutePath();
     }
 }

@@ -1,6 +1,6 @@
 package utils;
 
-import dataObjects.UserDTO;
+import dataStore.UserDTO;
 import org.yaml.snakeyaml.Yaml;
 import org.yaml.snakeyaml.constructor.Constructor;
 

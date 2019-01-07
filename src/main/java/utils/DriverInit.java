@@ -1,7 +1,7 @@
 package utils;
 
 import io.appium.java_client.android.AndroidDriver;
-import mobileUtils.MobileBasePage;
+import mobile.utils.MobileBasePage;
 
 import java.util.concurrent.TimeUnit;
 

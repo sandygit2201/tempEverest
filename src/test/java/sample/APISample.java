@@ -1,9 +1,9 @@
 package sample;
 
-import dataObjects.auth.AuthorisationResDTO;
-import dataObjects.shifts.ShiftsReqDTO;
-import dataObjects.UserDTO;
-import dataObjects.shifts.ShiftsResDTO;
+import restAPI.dataObjects.auth.AuthorisationResDTO;
+import restAPI.dataObjects.shifts.ShiftsReqDTO;
+import dataStore.UserDTO;
+import restAPI.dataObjects.shifts.ShiftsResDTO;
 import gherkin.deps.com.google.gson.JsonObject;
 import io.restassured.RestAssured;
 import io.restassured.path.json.JsonPath;

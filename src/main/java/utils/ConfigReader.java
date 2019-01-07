@@ -11,11 +11,17 @@ public class ConfigReader {
         return getConfigProperty("URL");
     }
 
+    public String getApkPath(){
+        return getConfigProperty("YOUniversApkPath");
+    }
+
     private String getConfigProperty(String property) {
 
         Properties properties = new PropertiesReader().readPropertyFile(configPropertiesFile);
 
         return properties.get(property).toString();
     }
+
+
 
 }

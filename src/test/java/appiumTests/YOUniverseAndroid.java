@@ -1,14 +1,13 @@
 package appiumTests;
 
-import mobileScreens.HomeScreen;
-import mobileScreens.LoginScreen;
-import mobileScreens.ShiftsScreen;
-import dataObjects.UserDTO;
+import dataStore.UserDTO;
+import mobile.screens.HomeScreen;
+import mobile.screens.LoginScreen;
+import mobile.screens.ShiftsScreen;
 import io.appium.java_client.android.AndroidDriver;
-import mobileUtils.MobileBasePage;
+import mobile.utils.MobileBasePage;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import utils.CommonUtils;

@@ -1,11 +1,11 @@
 package features.stepDefs;
 
-import apiReq.AuthorisationReq;
-import apiReq.ShiftsReq;
+import restAPI.apiReq.AuthorisationReq;
+import restAPI.apiReq.ShiftsReq;
 import cucumber.api.java.en.Given;
-import dataObjects.auth.AuthorisationResDTO;
-import dataObjects.shifts.ShiftsReqDTO;
-import dataObjects.shifts.ShiftsResDTO;
+import restAPI.dataObjects.auth.AuthorisationResDTO;
+import restAPI.dataObjects.shifts.ShiftsReqDTO;
+import restAPI.dataObjects.shifts.ShiftsResDTO;
 
 import java.util.List;
 
